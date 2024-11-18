@@ -6,4 +6,5 @@
 .Trashes
 #KiCAD cache
 fp-info-cache
+picdiv_board_v3-backups/*.zip
 
