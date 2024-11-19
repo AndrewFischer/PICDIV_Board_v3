@@ -5,8 +5,9 @@
 	(uuid "eba36321-b5f3-4bd6-a805-57b9b2ee447e")
 	(paper "A4")
 	(title_block
-		(title "PICDIV - PPS-board - v3")
-		(rev "2019-01")
+		(title "PICDIV - PPS-board - v4 AF")
+		(date "2024-11-19")
+		(rev "2024-11")
 		(company "anders.e.e.wallin \"at\" gmail.com")
 		(comment 1 "2018-08-01 first proto-boards order")
 		(comment 2 "2018-08 revision based on first protoboard, second protoboard run")
@@ -3935,11 +3936,11 @@
 				)
 			)
 		)
-		(symbol "power:+6V"
+		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3952,7 +3953,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+6V"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -3978,7 +3979,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3987,7 +3988,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3996,7 +3997,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+6V_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -4034,11 +4035,11 @@
 					)
 				)
 			)
-			(symbol "+6V_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+6V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4237,6 +4238,12 @@
 		(uuid "4a25b2aa-de5b-4937-b887-804da9416a31")
 	)
 	(junction
+		(at 162.56 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "507d1047-3289-455a-b930-10a976b14867")
+	)
+	(junction
 		(at 232.41 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4283,12 +4290,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c92ca2c-40c9-4dbb-b04f-a12d750f25db")
-	)
-	(junction
-		(at 161.29 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "935c3306-1865-4629-996c-fc8be65ae6c3")
 	)
 	(junction
 		(at 140.97 140.97)
@@ -4794,7 +4795,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 163.83) (xy 161.29 161.29)
+			(xy 162.56 163.83) (xy 162.56 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5554,6 +5555,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 163.83) (xy 163.83 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72286c7a-27fb-4cc4-beb5-a81d1792a330")
+	)
+	(wire
+		(pts
 			(xy 68.58 137.16) (xy 69.85 137.16)
 		)
 		(stroke
@@ -5894,16 +5905,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 163.83) (xy 163.83 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1689af8-8d04-4143-8558-bf65385cdbb5")
-	)
-	(wire
-		(pts
 			(xy 115.57 53.34) (xy 121.92 53.34)
 		)
 		(stroke
@@ -6014,7 +6015,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 163.83) (xy 161.29 163.83)
+			(xy 151.13 163.83) (xy 162.56 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6998,7 +6999,7 @@
 		)
 		(uuid "b9c8877b-ba87-404f-8609-7c6065b0e587")
 	)
-	(text "6VDC for sine-to-square"
+	(text "5VDC for OXCO"
 		(exclude_from_sim no)
 		(at 134.62 162.56 0)
 		(effects
@@ -8777,71 +8778,6 @@
 			(project "picdiv_board_v3"
 				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 161.29 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b3d558c")
-		(property "Reference" "#PWR017"
-			(at 161.29 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6V"
-			(at 161.29 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ddc8e68-7810-4284-ab95-07084289e453")
-		)
-		(instances
-			(project "picdiv_board_v3"
-				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14971,6 +14907,72 @@
 			(project "picdiv_board_v3"
 				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd5eba5b-da71-49c0-b50a-ebe805435ca1")
+		(property "Reference" "#PWR01"
+			(at 162.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 162.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7015ceb8-c13b-4030-ac3c-b92f1ffce282")
+		)
+		(instances
+			(project ""
+				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
