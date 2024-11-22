@@ -3173,6 +3173,17 @@
 		)
 		(uuid "86f46855-31e9-4941-917a-322083380b65")
 	)
+	(text "Bourns 3296W-1-202 100pm  3/8\"  £1.89\nBourns 3290W-1-202 50ppm  3/8\"  .26% resolution  £31 each(!)\nBourns 3250W-1-202 50ppm  1/2\"  .3% resolution   £17.64 each (Mouser, on order)\n"
+		(exclude_from_sim no)
+		(at 60.96 94.234 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0b06c91-b65c-49ec-9c7d-55b6b679c4bd")
+	)
 	(text "3.000V"
 		(exclude_from_sim no)
 		(at 137.922 82.296 0)
@@ -3192,6 +3203,16 @@
 			)
 		)
 		(uuid "b9a9bf66-8e94-45fa-9a19-7635b065a75a")
+	)
+	(text "Vishay 1280G  10%, ±15ppm Foil £24.48 (Mouser) "
+		(exclude_from_sim no)
+		(at 60.706 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c33fb970-a70d-4ca7-924f-42ea46a0b242")
 	)
 	(text "5VDC for OXCO"
 		(exclude_from_sim no)
