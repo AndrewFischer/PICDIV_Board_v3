@@ -179,7 +179,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.0,
+        1.0,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -445,7 +448,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "picdiv_board_v3.kicad_pro",
+    "filename": "picdiv_board_v4AF.kicad_pro",
     "version": 1
   },
   "net_settings": {
