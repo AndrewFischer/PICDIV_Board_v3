@@ -6812,17 +6812,6 @@
 		)
 		(uuid "9f7d4e8d-ad93-4c35-b5d1-02f5bb66cc90")
 	)
-	(label "S"
-		(at 148.59 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7b975c7-03e6-4e14-ae9e-d1cc28c2091c")
-	)
 	(label "A"
 		(at 151.13 63.5 0)
 		(fields_autoplaced yes)
