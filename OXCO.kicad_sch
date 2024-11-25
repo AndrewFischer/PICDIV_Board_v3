@@ -3122,7 +3122,7 @@
 		)
 		(uuid "ff5aac60-ac6d-4f15-9639-fdf830480986")
 	)
-	(text "ADR4540BRZ 4ppm/°C"
+	(text "ADR4540ARZ 4ppm/°C"
 		(exclude_from_sim no)
 		(at 68.072 52.07 0)
 		(effects
@@ -5113,7 +5113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 125.73 90.17 0)
 			(effects
 				(font
