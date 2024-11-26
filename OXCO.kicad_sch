@@ -3691,7 +3691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Oscilator_Local:OSC5A2B02"
 			(at 194.31 63.5 0)
 			(effects
 				(font
@@ -5007,7 +5007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0612"
 			(at 119.38 81.915 90)
 			(effects
 				(font
