@@ -1,0 +1,337 @@
+(footprint "Potentiometer_Vishay_1280G"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.191 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "79124441-c791-499a-955a-02f686c172c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Vishay_1280G"
+		(at 0 5.588 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1b201dfb-0991-485f-ab2e-284b9b183094")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e20f11a2-85ba-430b-afe6-4f74fbc394c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d34087b7-8076-457d-b85c-4fd27cf4c12e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4ee5591-1bb3-4e55-9a77-254c1d8b353f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.095 -1.303)
+		(end -10.095 1.297)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6d86107-1ae1-4db2-a49e-31748271bef2")
+	)
+	(fp_line
+		(start -10.095 -1.303)
+		(end -8.576 -1.303)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f064c834-0aa9-48ce-bb3b-1b7653b1cfb8")
+	)
+	(fp_line
+		(start -10.095 -0.003)
+		(end -9.336 -0.003)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f247a53-4886-4161-93c1-18724f728cb7")
+	)
+	(fp_line
+		(start -10.095 1.297)
+		(end -8.576 1.297)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4abb3a1-0e27-4a14-9594-61c07356fa21")
+	)
+	(fp_line
+		(start -8.576 -1.303)
+		(end -8.576 1.297)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "575773cd-77c4-4063-8f9d-6760f1bec0f8")
+	)
+	(fp_line
+		(start -8.575 -2.523)
+		(end -8.575 2.517)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9340758-d2cc-4478-9886-d2569a1a3256")
+	)
+	(fp_line
+		(start -8.575 -2.523)
+		(end 10.665 -2.523)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f19ffb7-6ccb-4a4b-9032-cd337d09b622")
+	)
+	(fp_line
+		(start -8.575 2.517)
+		(end 10.665 2.517)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67c78c79-ee96-4541-9aa6-48e497bf273d")
+	)
+	(fp_line
+		(start 10.665 -2.523)
+		(end 10.665 2.517)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28b0871a-6889-441d-aa53-a62f3e4ea166")
+	)
+	(fp_line
+		(start -10.255 -2.683)
+		(end -10.255 2.667)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f84beb9-390f-4428-804d-2862a249b125")
+	)
+	(fp_line
+		(start -10.255 2.667)
+		(end 10.795 2.667)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d98372f9-6a5e-4cf9-9713-07f5120f0b32")
+	)
+	(fp_line
+		(start 10.795 -2.683)
+		(end -10.255 -2.683)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f490a80-82b7-4158-8b0d-6ef60f7652ee")
+	)
+	(fp_line
+		(start 10.795 2.667)
+		(end 10.795 -2.683)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c880d98-2acd-4c83-8c03-6417a6a6f07b")
+	)
+	(fp_line
+		(start -9.975 -1.183)
+		(end -9.975 1.177)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49ad9d28-f15d-49c2-954b-678b691a97e1")
+	)
+	(fp_line
+		(start -9.975 -0.003)
+		(end -9.215 -0.003)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc548eeb-3b13-446f-82fb-a6e84dcdc077")
+	)
+	(fp_line
+		(start -9.975 1.177)
+		(end -8.455 1.177)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "245e1dcd-1609-4562-9e61-5add535747d2")
+	)
+	(fp_line
+		(start -8.455 -2.403)
+		(end -8.455 2.397)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cebc8c6-2c0a-4909-b3ad-cbaefd2addbd")
+	)
+	(fp_line
+		(start -8.455 -1.183)
+		(end -9.975 -1.183)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27661a8f-d9ea-4832-82c9-9dab43eceb18")
+	)
+	(fp_line
+		(start -8.455 1.177)
+		(end -8.455 -1.183)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43c922c2-29f3-4c82-917f-e7ed20b723ca")
+	)
+	(fp_line
+		(start -8.455 2.397)
+		(end 10.545 2.397)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9333e4d-f2c9-44ef-9efa-f4b77d5f33a7")
+	)
+	(fp_line
+		(start 10.545 -2.403)
+		(end -8.455 -2.403)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e354205-973c-41a9-af89-84f997914a0a")
+	)
+	(fp_line
+		(start 10.545 2.397)
+		(end 10.545 -2.403)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09e1eddd-d92d-4066-a6cc-8c1cbd60de9d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.191 0)
+		(layer "F.Fab")
+		(uuid "dc25c18b-aa07-4f70-8e2d-44efdc0f56ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.874 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2efc0a0-7012-45f0-8b02-0436254e43ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 7.366 1.27)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bd25edf9-e1a1-4614-85ab-9abefea4276c")
+	)
+	(pad "2" thru_hole circle
+		(at -0.254 -1.27)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "727ec65b-8c5e-4733-b679-baabd3aa9678")
+	)
+	(pad "3" thru_hole circle
+		(at -5.334 1.27)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c87ddc83-a13a-4912-bac5-ba331af0d13c")
+	)
+)
