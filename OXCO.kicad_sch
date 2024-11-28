@@ -3173,6 +3173,16 @@
 		)
 		(uuid "86f46855-31e9-4941-917a-322083380b65")
 	)
+	(text "Vishay 1280G has similar footprint as Bourn 3005P and 3006P.\nPossible to layout so all three fit.   Be sure to import 3D files for all 3.  "
+		(exclude_from_sim no)
+		(at 122.682 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ba7a18c-f3f2-475a-94b1-07340fb9d49a")
+	)
 	(text "Bourns 3296W-1-202 100pm  3/8\"  £1.89\nBourns 3290W-1-202 50ppm  3/8\"  .26% resolution  £31 each(!)\nBourns 3250W-1-202 50ppm  1/2\"  .3% resolution   £17.64 each (Mouser, on order)\n"
 		(exclude_from_sim no)
 		(at 60.96 94.234 0)
