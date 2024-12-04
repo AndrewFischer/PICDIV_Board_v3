@@ -3795,8 +3795,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "1% 100ppm - Basic part"
 			(at 74.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F6800T5E"
+			(at 74.93 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17798"
+			(at 74.93 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,6 +3950,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 88.9 130.81 0)
 			(effects
 				(font
@@ -6025,8 +6061,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "2.15kΩ ±25ppm/℃ ±0.1%"
 			(at 74.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0805BRD072K15L"
+			(at 74.93 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C865365"
+			(at 74.93 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
