@@ -4324,6 +4324,18 @@
 		(uuid "c310f92b-723f-4041-a3ef-02999b9c229f")
 	)
 	(junction
+		(at 57.15 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c583811c-e3b4-4e6b-813e-bc06948c3498")
+	)
+	(junction
+		(at 49.53 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6b434bf-2da7-4de6-a095-712204a798bb")
+	)
+	(junction
 		(at 234.95 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4593,6 +4605,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 80.01) (xy 97.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc96917-4045-43d3-8aa7-1b8eb8c79960")
+	)
+	(wire
+		(pts
 			(xy 52.07 168.91) (xy 49.53 168.91)
 		)
 		(stroke
@@ -4610,6 +4632,16 @@
 			(type default)
 		)
 		(uuid "1c6c0532-6230-4d23-aa9f-130c5826d806")
+	)
+	(wire
+		(pts
+			(xy 49.53 85.09) (xy 49.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d837c24-282e-4741-9e0c-a34c2aa4f56f")
 	)
 	(wire
 		(pts
@@ -4680,6 +4712,16 @@
 			(type default)
 		)
 		(uuid "24959d10-60f2-4b7b-a82a-c4e275d0bb47")
+	)
+	(wire
+		(pts
+			(xy 54.61 92.71) (xy 57.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255f58a5-99c5-4616-8eee-c877aef13b97")
 	)
 	(polyline
 		(pts
@@ -5013,6 +5055,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 80.01) (xy 57.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecd6c32-5e8c-4934-a859-a0b22be532c2")
+	)
+	(wire
+		(pts
 			(xy 142.24 99.06) (xy 146.05 99.06)
 		)
 		(stroke
@@ -5100,6 +5152,16 @@
 			(type default)
 		)
 		(uuid "55b084e2-6f3b-4a39-9865-3392bfff6753")
+	)
+	(wire
+		(pts
+			(xy 57.15 80.01) (xy 57.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56eff4c4-169c-4be7-8db8-3cd71e22bc29")
 	)
 	(wire
 		(pts
@@ -5963,6 +6025,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 86.36) (xy 49.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b6da8c-f8e2-4229-89c8-46563c1fb323")
+	)
+	(wire
+		(pts
 			(xy 71.12 105.41) (xy 71.12 106.68)
 		)
 		(stroke
@@ -6023,6 +6095,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 86.36) (xy 40.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d618aace-419a-4e01-8d24-1cce2bbe86c0")
+	)
+	(wire
+		(pts
 			(xy 236.22 102.87) (xy 232.41 102.87)
 		)
 		(stroke
@@ -6040,16 +6122,6 @@
 			(type default)
 		)
 		(uuid "d9f69b48-344b-4acc-8183-72ea74f8ed17")
-	)
-	(wire
-		(pts
-			(xy 93.98 80.01) (xy 93.98 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de66fc40-3ea4-4c73-b568-ee15724858f8")
 	)
 	(wire
 		(pts
@@ -6160,6 +6232,16 @@
 			(type default)
 		)
 		(uuid "e85d5947-7bbc-4d83-a015-a3b5a1e26c0a")
+	)
+	(wire
+		(pts
+			(xy 49.53 86.36) (xy 40.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e999245a-d81b-40ff-9da9-6fd4147ed5dd")
 	)
 	(wire
 		(pts
@@ -6340,16 +6422,6 @@
 			(type default)
 		)
 		(uuid "fa7438fd-dae7-46af-b892-55d7aa2ac3ca")
-	)
-	(wire
-		(pts
-			(xy 97.79 80.01) (xy 93.98 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faf47996-fede-4533-b082-179d95d9885e")
 	)
 	(wire
 		(pts
@@ -9523,7 +9595,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 82.55 0)
+		(at 40.64 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9531,7 +9603,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b400c5f")
 		(property "Reference" "#PWR021"
-			(at 93.98 88.9 0)
+			(at 40.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,7 +9612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 86.36 0)
+			(at 40.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9548,7 +9620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 82.55 0)
+			(at 40.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9557,7 +9629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 82.55 0)
+			(at 40.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,7 +9638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 82.55 0)
+			(at 40.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11840,7 +11912,7 @@
 				)
 			)
 		)
-		(property "Value" "PPS_A"
+		(property "Value" "10MHz"
 			(at 272.161 60.96 90)
 			(effects
 				(font
@@ -12430,7 +12502,7 @@
 				)
 			)
 		)
-		(property "Value" "PPS_A"
+		(property "Value" "10MHz"
 			(at 272.161 45.72 90)
 			(effects
 				(font
@@ -13090,6 +13162,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 49.53 92.71 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24564efb-1990-4e4d-91d1-0ff121f12208")
+		(property "Reference" "J7"
+			(at 49.276 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Sync"
+			(at 46.609 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
+			(at 49.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 49.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63bb7187-e202-45dc-8ad2-6c537423134f")
+		)
+		(pin "2"
+			(uuid "c38d029f-f9ce-469f-bbd0-4134b9a097ab")
+		)
+		(instances
+			(project "picdiv_board_v4AF"
+				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 246.38 27.94 0)
 		(unit 1)
@@ -13307,6 +13446,74 @@
 			(project ""
 				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 49.53 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67c90579-93ab-44e0-9f3a-4aec45aea8c1")
+		(property "Reference" "J6"
+			(at 49.276 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Sync"
+			(at 46.609 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal"
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b5ed17d-30b9-400f-b278-922dd118956c")
+		)
+		(pin "2"
+			(uuid "9de68465-b6ae-4c28-887d-5eceb976d215")
+		)
+		(instances
+			(project "picdiv_board_v4AF"
+				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e"
+					(reference "J6")
 					(unit 1)
 				)
 			)
