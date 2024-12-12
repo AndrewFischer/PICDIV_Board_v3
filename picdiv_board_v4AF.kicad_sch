@@ -9143,7 +9143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 146.685 106.68 0)
 			(effects
 				(font
@@ -9171,6 +9171,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 146.05 104.14 0)
 			(effects
 				(font
