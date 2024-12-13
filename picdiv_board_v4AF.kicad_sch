@@ -6610,7 +6610,7 @@
 	)
 	(text "3V3 for PIC"
 		(exclude_from_sim no)
-		(at 57.15 133.35 0)
+		(at 66.04 142.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6695,17 +6695,6 @@
 			(justify left bottom)
 		)
 		(uuid "7dbac784-22a0-446e-adb3-86ca35b331c6")
-	)
-	(label "PPS_A"
-		(at 259.08 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83a40279-1ccf-4a8f-964f-6e7547c87af3")
 	)
 	(label "w4"
 		(at 30.48 168.91 0)
@@ -13589,6 +13578,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 80.01 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 80.01 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28568fe9-f246-4053-8eea-0b35ffee07fc")
 		)
@@ -13955,6 +13962,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 85.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 85.09 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 85.09 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
