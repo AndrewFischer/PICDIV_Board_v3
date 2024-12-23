@@ -181,7 +181,12 @@
       "track_widths": [
         0.0,
         0.0,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
         1.0,
+        1.2,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -222,6 +227,10 @@
         {
           "diameter": 1.5,
           "drill": 0.8
+        },
+        {
+          "diameter": 1.6,
+          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false
