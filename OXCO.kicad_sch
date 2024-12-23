@@ -2185,6 +2185,12 @@
 		(uuid "4189e192-f9d4-4c4e-bfbb-486ff846e316")
 	)
 	(junction
+		(at 138.43 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d8743af-537d-4873-bd7d-a5bd88c301e1")
+	)
+	(junction
 		(at 226.06 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2334,7 +2340,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 90.17) (xy 134.62 90.17)
+			(xy 129.54 90.17) (xy 138.43 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2481,6 +2487,16 @@
 			(type default)
 		)
 		(uuid "48832ca1-92cb-438e-b448-a3a311f205bd")
+	)
+	(wire
+		(pts
+			(xy 138.43 90.17) (xy 138.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f32b26-74a2-42bf-83f7-8cff7d5e620f")
 	)
 	(wire
 		(pts
@@ -2734,6 +2750,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 99.06) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832e3512-6d58-45a5-8788-22020efe0c46")
+	)
+	(wire
+		(pts
 			(xy 43.18 59.69) (xy 43.18 66.04)
 		)
 		(stroke
@@ -2741,6 +2767,16 @@
 			(type default)
 		)
 		(uuid "8377db31-f882-4a39-b032-5027f1a41f28")
+	)
+	(wire
+		(pts
+			(xy 138.43 90.17) (xy 143.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83deedde-afa1-4673-ae21-c5b193fb9844")
 	)
 	(wire
 		(pts
@@ -3173,9 +3209,9 @@
 		)
 		(uuid "86f46855-31e9-4941-917a-322083380b65")
 	)
-	(text "Vishay 1280G has similar footprint as Bourn 3005P and 3006P.\nPossible to layout so all three fit.   Be sure to import 3D files for all 3.  "
+	(text "Vishay 1280G has similar footprint as Bourns 3005P\n and 3006P. Possible to layout so all three fit. "
 		(exclude_from_sim no)
-		(at 122.682 102.616 0)
+		(at 127 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3303,7 +3339,7 @@
 	)
 	(global_label "Vadj"
 		(shape input)
-		(at 134.62 90.17 0)
+		(at 143.51 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3313,7 +3349,7 @@
 		)
 		(uuid "cc398651-c0d6-48a2-9c34-fdb48a4539a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.9424 90.17 0)
+			(at 149.8324 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4418,7 @@
 				)
 			)
 		)
-		(property "Value" "TEST_VADJ"
+		(property "Value" "VADJ"
 			(at 168.91 74.93 0)
 			(effects
 				(font
@@ -5224,6 +5260,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 138.43 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "965f40a5-3ec9-445f-8760-7899613393be")
+		(property "Reference" "#PWR023"
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "355048c4-8a88-4f6e-ba19-07bf23ca7441")
+		)
+		(instances
+			(project ""
+				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e/e769b68a-585d-4de6-8d1e-4dcee65d99b9"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 59.69 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5820,6 +5922,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 138.43 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6c840ae-c8fa-43b9-a545-9b3b65859943")
+		(property "Reference" "C26"
+			(at 142.24 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 142.24 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 139.3952 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 138.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC "
+			(at 138.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3b77411-59cd-4ecf-8afa-6c08635caf40")
+		)
+		(pin "1"
+			(uuid "66fd7790-d667-4b25-801c-771e404e3dd8")
+		)
+		(instances
+			(project "picdiv_board_v4AF"
+				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e/e769b68a-585d-4de6-8d1e-4dcee65d99b9"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 135.89 0)
 		(unit 1)
@@ -5902,7 +6092,7 @@
 				)
 			)
 		)
-		(property "Value" "TEST_5V"
+		(property "Value" "5V"
 			(at 105.41 133.35 0)
 			(effects
 				(font
