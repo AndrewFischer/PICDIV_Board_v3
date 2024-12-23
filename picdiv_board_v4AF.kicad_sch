@@ -10786,6 +10786,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "R"
+			(at 67.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 67.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "r=\"\""
+			(at 67.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff429c00-7d47-46ca-b3b9-6e27205ff53a")
 		)
@@ -11498,6 +11525,33 @@
 		)
 		(property "LCSC" "C17408 "
 			(at 146.05 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 146.05 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 146.05 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "r=\"\""
+			(at 146.05 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12832,7 +12886,7 @@
 				)
 			)
 		)
-		(property "Value" "LT1963AxST-3.3"
+		(property "Value" "LT1963AEST-3.3"
 			(at 121.92 136.4996 0)
 			(effects
 				(font
@@ -12859,6 +12913,15 @@
 			)
 		)
 		(property "Description" "3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223"
+			(at 121.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C459918"
 			(at 121.92 143.51 0)
 			(effects
 				(font
@@ -12902,7 +12965,7 @@
 				)
 			)
 		)
-		(property "Value" "LT1963AxST-3.3"
+		(property "Value" "LT1963AEST-3.3"
 			(at 43.18 133.9596 0)
 			(effects
 				(font
@@ -12929,6 +12992,15 @@
 			)
 		)
 		(property "Description" "3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223"
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C459918"
 			(at 43.18 140.97 0)
 			(effects
 				(font
