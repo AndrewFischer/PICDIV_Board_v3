@@ -7518,8 +7518,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "50mA 2.2uH ±10% 600mΩ"
 			(at 116.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMI201209U2R2KT"
+			(at 116.84 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1043"
+			(at 116.84 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,6 +8189,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMI201209U2R2KT"
+			(at 223.52 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1043"
+			(at 223.52 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12230,6 +12266,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 223.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMI201209U2R2KT"
+			(at 223.52 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1043"
+			(at 223.52 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
