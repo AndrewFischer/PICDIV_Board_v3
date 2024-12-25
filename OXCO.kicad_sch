@@ -2750,16 +2750,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 99.06) (xy 138.43 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "832e3512-6d58-45a5-8788-22020efe0c46")
-	)
-	(wire
-		(pts
 			(xy 43.18 59.69) (xy 43.18 66.04)
 		)
 		(stroke
@@ -3949,7 +3939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c69b85f-2496-4fb6-9b30-c683cc9321ef")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at 89.535 133.35 0)
 			(effects
 				(font
@@ -3958,7 +3948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10µF"
 			(at 89.535 128.27 0)
 			(effects
 				(font
@@ -4021,7 +4011,7 @@
 		(instances
 			(project "picdiv_board_v3"
 				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e/e769b68a-585d-4de6-8d1e-4dcee65d99b9"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4566,7 +4556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72ab5b6d-f86a-4f19-a5b9-19d51c93a1ce")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 83.82 74.9299 0)
 			(effects
 				(font
@@ -4638,7 +4628,7 @@
 		(instances
 			(project "picdiv_board_v3"
 				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e/e769b68a-585d-4de6-8d1e-4dcee65d99b9"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5260,72 +5250,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "965f40a5-3ec9-445f-8760-7899613393be")
-		(property "Reference" "#PWR023"
-			(at 138.43 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "355048c4-8a88-4f6e-ba19-07bf23ca7441")
-		)
-		(instances
-			(project ""
-				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e/e769b68a-585d-4de6-8d1e-4dcee65d99b9"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 59.69 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5922,94 +5846,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 138.43 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6c840ae-c8fa-43b9-a545-9b3b65859943")
-		(property "Reference" "C26"
-			(at 142.24 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 142.24 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 139.3952 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KO5NNNC "
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3b77411-59cd-4ecf-8afa-6c08635caf40")
-		)
-		(pin "1"
-			(uuid "66fd7790-d667-4b25-801c-771e404e3dd8")
-		)
-		(instances
-			(project "picdiv_board_v4AF"
-				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e/e769b68a-585d-4de6-8d1e-4dcee65d99b9"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 41.91 135.89 0)
 		(unit 1)
@@ -6422,6 +6258,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2297 "
 			(at 81.28 130.81 0)
 			(effects
 				(font
