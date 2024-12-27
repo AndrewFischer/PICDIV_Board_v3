@@ -8,4 +8,5 @@
 fp-info-cache
 picdiv_board_v3-backups/*.zip
 picdiv_board_v4-backups/*.zip
+.lck
 
