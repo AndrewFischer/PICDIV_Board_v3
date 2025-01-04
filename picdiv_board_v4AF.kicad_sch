@@ -5061,6 +5061,12 @@
 		(uuid "a180b3d7-1a70-4070-b435-ceb159df9301")
 	)
 	(junction
+		(at 105.41 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6146f3b-074b-4224-a330-ccb9d7fca32a")
+	)
+	(junction
 		(at 240.03 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5303,6 +5309,16 @@
 			(type default)
 		)
 		(uuid "09c8d82e-cbdc-45ea-902a-1b7c79270f20")
+	)
+	(wire
+		(pts
+			(xy 92.71 189.23) (xy 105.41 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a141c7b-640f-454f-ae31-68981f2c8ae5")
 	)
 	(wire
 		(pts
@@ -5983,16 +5999,6 @@
 			(type default)
 		)
 		(uuid "519c53c2-6df8-4f7b-b9ed-6c365ff63c95")
-	)
-	(wire
-		(pts
-			(xy 105.41 163.83) (xy 104.14 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53384230-6e7c-45a9-9e5a-7b7b8b4d491a")
 	)
 	(wire
 		(pts
@@ -6886,6 +6892,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 163.83) (xy 92.71 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b773f7b2-74b2-42d4-8797-b87b177989c2")
+	)
+	(wire
+		(pts
 			(xy 62.23 133.35) (xy 62.23 134.62)
 		)
 		(stroke
@@ -7196,6 +7212,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 163.83) (xy 105.41 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc17e44-cdb2-45f2-be69-ca482358928d")
+	)
+	(wire
+		(pts
 			(xy 107.95 59.69) (xy 107.95 60.96)
 		)
 		(stroke
@@ -7423,6 +7449,16 @@
 			(type default)
 		)
 		(uuid "ef1e263d-513c-4194-ab4b-7996cd7775a2")
+	)
+	(wire
+		(pts
+			(xy 92.71 180.34) (xy 92.71 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef23896d-ccbe-4168-9dc9-2d7dfb1ae38c")
 	)
 	(wire
 		(pts
@@ -15450,6 +15486,93 @@
 			(project "picdiv_board_v4AF"
 				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8baed402-99eb-4013-9dc8-e344ca119817")
+		(property "Reference" "C29"
+			(at 93.345 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 93.345 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 93.6752 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 92.71 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 92.71 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6daed4a-cf63-4b8f-984a-ca684330eefc")
+		)
+		(pin "2"
+			(uuid "54c3e8ab-b894-4ce3-88fa-00de6bc0bd83")
+		)
+		(instances
+			(project "picdiv_board_v4AF"
+				(path "/eba36321-b5f3-4bd6-a805-57b9b2ee447e"
+					(reference "C29")
 					(unit 1)
 				)
 			)
