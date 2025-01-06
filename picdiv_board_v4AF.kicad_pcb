@@ -5482,7 +5482,7 @@
 		(descr "https://www.molex.com/webdocs/datasheets/pdf/en-us/0732512200_RF_COAX_CONNECTORS.pdf")
 		(tags "SMA THT Female Jack Horizontal")
 		(property "Reference" "J11"
-			(at -6.5 13.5 270)
+			(at -6.5 13.5 -90)
 			(layer "F.SilkS")
 			(uuid "cf605922-b598-4bc2-b47b-6bb978d83fdf")
 			(effects
@@ -11245,7 +11245,7 @@
 		(descr "https://www.bourns.com/docs/Product-Datasheets/SRF0905.pdf")
 		(tags "Line Filter")
 		(property "Reference" "FL1"
-			(at 0 -4 270)
+			(at 0 -4 -90)
 			(layer "F.SilkS")
 			(uuid "1abaa14d-f156-4379-8436-5a01cf567653")
 			(effects
@@ -12102,8 +12102,8 @@
 			(uuid "de1cc414-7725-43f0-b7ca-895a0a7084c8")
 			(effects
 				(font
-					(size 1.2 1.2)
-					(thickness 0.17)
+					(size 1.4 1.4)
+					(thickness 0.2)
 				)
 			)
 		)
@@ -19153,8 +19153,8 @@
 			(uuid "30873420-b9b8-4e57-815c-c4f69b93c747")
 			(effects
 				(font
-					(size 1.2 1.2)
-					(thickness 0.17)
+					(size 1.4 1.4)
+					(thickness 0.2)
 				)
 			)
 		)
